@@ -1,119 +1,49 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
+body {
+    font-family: Arial, sans-serif;
+    }
 
-body{
-    background: #161815;
-}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    }
 
-.section-pading {
-    padding: 70px 0;
-}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    }
 
-.carousel-item {
-    height: 80vh;
-    min-height: 300px;
-}
-
-.carousel-caption {
-    bottom:200px;
-    z-index: 2;
-}
-
-.carousel-caption h5{
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-}
-
-.carrousel-caption p {
-    widht: 60%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
-}
-
-.carousel-inner::before{
-    contect:"";
-    position: absolute;
-    widht:100%;
-    height:100%;
-    top: 0;
-    left: 0;
-    background: rgba (0, 30, 82, 0.327);
-    z-index: 1;
-}
-
-
-.navbar-nav a {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-.navbar-dark -navbar-brand{
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
     color: #fff;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight:bold;
-    letter-spacing: 2;
-}
+    border: none;
+    cursor: pointer;
+    }
 
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    color: #000;
-}
+button:hover {
+    background-color: #0056b3;
+    }
 
-.w-100 {
-    height: 100vh;
-}
+#result {
+    margin-top: 20px;
+    }
 
-.navbar-toggler {
-    padding: 1px 5px;
-    font-size: 18px;
-    line-height: 0.3;
-}
-
-.services .card-body i{
+resultado{
     font-size: 50px;
+    text-align: center;
+    color: blue;
 }
 
-.team .card-body i {
+datosProyecto h3 a p {
     font-size: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
-@medio(max-widht: 767px) {
-    .navbar-nav {
-        text-align: center;
-    }
-    .carousel-item{
-        height: 70vh;
-    }
-    .w-100{
-        height: 70vh;
-    }
-    .carousel-caption {
-        bottom: 125px;
-    }
-    .carousel-caption h5 {
-        font-size: 17px;
-    }
-    .carousel-caption a{
-        padding: 10px 15px;
-        font-size: 15px;
-    }
-    .carousel-caption p{
-        widht: 100%;
-        line-height: 1.5;
-        font-size:12px;
-    }
-    about-text {
-        padding-top: 50px;
-    }
-    .card{
-        margin-bottom: 30px;
-    }
-    .section-padding {
-        padding: 50px 0;
-    }
+inicio {
+    max-width: 300px;
+    margin: 0 auto;
 }
